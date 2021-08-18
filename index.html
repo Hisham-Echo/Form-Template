@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <!-- Page Title Logo Icon -->
+    <!-- <link rel="icon" href="IMAGES/logo.webp"> -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- Normalizing CSS Style Sheet -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="CSS/Main.css">
+
+</head>
+
+<body>
+    <div class="main-body container">
+        <div class="image">
+            <img src="IMAGES/_Path_ (1).png" alt=":(">
+        </div>
+        <form action="index.php" method="POST">
+
+            <div class="data">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Luke Skywalker" required>
+            </div>
+
+            <div class="data">
+                <label for="gender" required>Gender</label>
+                <input type="radio" value="Male" name="Gender" checked>
+                <input type="radio" value="Female" name="Gender">
+            </div>
+
+            <div class="data">
+                <label for="date">Date of Birth</label>
+                <input Id="date" type="date" name="Date" required>
+            </div>
+
+            <div class="data">
+                <label for="Email">Email</label>
+                <input id="Email" type="email" Name="E-mail" placeholder="lukeskywalker@galaxy.com" required>
+            </div>
+
+            <div class="data">
+                <label for="city">City</label>
+                <input id="city" type="text" name="City" placeholder="Moisture Farm ( optional )">
+            </div>
+
+            <div class="data">
+                <label for="country">Country</label>
+                <select id="country" name="Country" required></select>
+            </div>
+
+            <div class="data">
+                <label for="#">Subscription</label>
+                <input id="city" type="text">
+            </div>
+            <div class="data">
+                <input id="reset" type="reset" value="RESET">
+                <input id="save" type="submit" value="SAVE">
+            </div>
+
+        </form>
+    </div>
+
+    <script src="JS/form.js"></script>
+</body>
+
+</html>
