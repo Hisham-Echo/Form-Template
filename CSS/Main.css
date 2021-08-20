@@ -86,6 +86,7 @@ div.main-body.container {
     justify-content: space-between;
     filter: var(--normal-drop-shadow);
     z-index: 10;
+    min-height: 700px;
 }
 
 
